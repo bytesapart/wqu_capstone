@@ -47,7 +47,7 @@ def main():
         # ===== Step 3: Get the volatility of the outliers =====
         volatility, data = volatility_estimator.calculate_volatility_of_stocks(data)
 
-        # ===== Step 4: Get the indicators to trade on =====
+        # ===== Step 4: Get the indicators to trade on ======
         trading_signals.trading_strat_mean_revert(data)
 
     except BaseException, e:
