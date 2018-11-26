@@ -27,6 +27,7 @@ import sys  # For gracefully notifying whether the script has ended or not
 import stock_entry  # For getting the ticker list from the user
 import data_fetcher  # For fetching data from the web
 import volatility_estimator  # For getting the volatility of the outliers
+import trading_signals  # For generating signals to trade upon
 
 
 def main():
@@ -45,6 +46,10 @@ def main():
 
         # ===== Step 3: Get the volatility of the outliers =====
         volatility, data = volatility_estimator.calculate_volatility_of_stocks(data)
+
+        # ===== Step 4: Get the indicators to trade on =====
+        trading_signals.trading_strat_mean_revert(data)
+
     except BaseException, e:
         # Casting a wide net to catch all exceptions
         print('\n%s' % str(e))

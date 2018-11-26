@@ -64,7 +64,7 @@ def fetch_stock_hist_data(stocks):
         i += 1
         try:
             # Get data from Yahoo Finance
-            all_data[ticker] = pdr.get_data_yahoo(ticker, start, end)
+            all_data[ticker] = pdr.get_data_yahoo(ticker, start, end, auto_adjust=True)
         except IOError:
             continue
     return all_data
