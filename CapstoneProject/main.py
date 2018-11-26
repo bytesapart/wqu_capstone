@@ -26,6 +26,7 @@ import logging  # Logging class for logging in the case of an error, makes debug
 import sys  # For gracefully notifying whether the script has ended or not
 import stock_entry  # For getting the ticker list from the user
 import data_fetcher  # For fetching data from the web
+import volatility_estimator  # For getting the volatility of the outliers
 
 
 def main():
@@ -36,11 +37,14 @@ def main():
     """
     # Wrap in a try block so that we catch any exceptions thrown by other functions and return a 1 for graceful exit
     try:
-        # Get Stock list
+        # ===== Step 1: Get Stock list =====
         tickers = stock_entry.prompt_for_stock_entry()
-        # Get stock historical data
+
+        # ===== Step 2: Get stock historical data =====
         data = data_fetcher.fetch_stock_hist_data(tickers)
-        print
+
+        # ===== Step 3: Get the volatility of the outliers =====
+        volatility, data = volatility_estimator.calculate_volatility_of_stocks(data)
     except BaseException, e:
         # Casting a wide net to catch all exceptions
         print('\n%s' % str(e))
