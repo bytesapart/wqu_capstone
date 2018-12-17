@@ -15,6 +15,8 @@ __license__ = 'MIT'
 __vcs_id__ = '$Id$'
 __version__ = '1.0.0'  # Versioning: http://www.python.org/dev/peps/pep-0386/
 
+import trading_strategy
+import measure_kpi
 import pandas as pd
 import talib
 
@@ -35,6 +37,7 @@ def trading_strat_mean_revert(stock_data):
     x = pd.DataFrame()
     y = pd.DataFrame()
     z = any
+    KPI = pd.DataFrame()
     # use equal weight portfolio
     investment = 100000
     portfolio_size = len(stock_data) - 1
@@ -81,3 +84,20 @@ def trading_strat_mean_revert(stock_data):
 
             # get Stochastic
             f['SLOWK'], f['SLOWD'] = talib.STOCH(r.High.values, r.Low.values, r.Close.values, 14, 3, 0, 3, 0)
+
+            # Device strategy
+            M, no_of_trades, no_of_long, no_of_short, no_of_stop \
+                = trading_strategy.derive_strategy(f, investment_each)
+
+            # compute KPI
+            if no_of_trades:
+                kpi = measure_kpi.Measure_KPI(M, tick, no_of_trades, no_of_long, no_of_short, no_of_stop)
+                KPI = pd.concat([KPI, kpi], axis=1)
+            else:
+                'No Trades Executed'
+            x = (f.reset_index()).copy()
+            y = r.copy()
+            z = tick
+
+        print KPI
+        return x, y, z

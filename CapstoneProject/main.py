@@ -28,6 +28,7 @@ import stock_entry  # For getting the ticker list from the user
 import data_fetcher  # For fetching data from the web
 import volatility_estimator  # For getting the volatility of the outliers
 import trading_signals  # For generating signals to trade upon
+import indicator_plotting
 
 
 def main():
@@ -48,7 +49,10 @@ def main():
         volatility, data = volatility_estimator.calculate_volatility_of_stocks(data)
 
         # ===== Step 4: Get the indicators to trade on ======
-        trading_signals.trading_strat_mean_revert(data)
+        indicators, data, tick = trading_signals.trading_strat_mean_revert(data)
+
+        # Plot the stock data and the indicators
+        indicator_plotting.plot_signals_and_indicators(tick, data, indicators)
 
     except BaseException, e:
         # Casting a wide net to catch all exceptions
