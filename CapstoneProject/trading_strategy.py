@@ -1,5 +1,11 @@
 """
-@author: lipi
+Created on Thu November 08 11:02:10 2017+5:30
+
+@author: Osama Iqbal
+
+Code uses Python 2.7, packaged with Anaconda 4.4.0
+Code developed on Windows 10.
+
 Device Strategy for short-term trading
 1. If RSI crosses 30 from Below and
       MACD cosses Signal from above and
@@ -16,6 +22,11 @@ Device Strategy for short-term trading
 5. Exit when we reach the end
 
 """
+# Some Metadata about the script
+__author__ = 'Osama Iqbal (iqbal.osama@icloud.com)'
+__license__ = 'MIT'
+__vcs_id__ = '$Id$'
+__version__ = '1.0.0'  # Versioning: http://www.python.org/dev/peps/pep-0386/
 
 
 def derive_strategy(data, cash):

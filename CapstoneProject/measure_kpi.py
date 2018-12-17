@@ -1,4 +1,11 @@
 """
+Created on Thu November 08 11:02:10 2017+5:30
+
+@author: Osama Iqbal
+
+Code uses Python 2.7, packaged with Anaconda 4.4.0
+Code developed on Windows 10.
+
 Compute KPI
 """
 # Some Metadata about the script

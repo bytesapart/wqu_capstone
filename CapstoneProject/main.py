@@ -40,18 +40,23 @@ def main():
     # Wrap in a try block so that we catch any exceptions thrown by other functions and return a 1 for graceful exit
     try:
         # ===== Step 1: Get Stock list =====
+        logging.info('Fetching tickers...')
         tickers = stock_entry.prompt_for_stock_entry()
 
         # ===== Step 2: Get stock historical data =====
+        logging.info('Fetching historical data...')
         data = data_fetcher.fetch_stock_hist_data(tickers)
 
         # ===== Step 3: Get the volatility of the outliers =====
+        logging.info('Calculating Volatility...')
         volatility, data = volatility_estimator.calculate_volatility_of_stocks(data)
 
         # ===== Step 4: Get the indicators to trade on ======
+        logging.info('Applying Strategy...')
         indicators, data, tick = trading_signals.trading_strat_mean_revert(data)
 
         # Plot the stock data and the indicators
+        logging.info('Plotting signals and indicators...')
         indicator_plotting.plot_signals_and_indicators(tick, data, indicators)
 
     except BaseException, e:

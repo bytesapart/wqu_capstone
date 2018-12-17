@@ -118,5 +118,6 @@ def plot_signals_and_indicators(tick, data, inddata):
     axx[3].plot(inddata['Date'], inddata['MIDBAND'], color='blue', label='_nolegend_')
     axx[3].set_xticklabels(ax[0].xaxis.get_majorticklabels(), rotation=45)
     axx[3].legend(loc='upper left', shadow=True)
+    plt.show()
 
 

@@ -21,6 +21,7 @@ __version__ = '1.0.0'  # Versioning: http://www.python.org/dev/peps/pep-0386/
 
 import matplotlib.pyplot as plt
 import numpy as np
+import logging
 
 
 def calculate_volatility_of_stocks(stock_data):
@@ -37,6 +38,7 @@ def calculate_volatility_of_stocks(stock_data):
         daily_change_measure.append(np.sqrt(np.mean(data['Daily_Change'] ** 2)))
         labels.append(tic)
 
+    logging.info('PLotting volatility indicators... (Please close the chart to continue the program!)')
     # Prepare plot
     plt.plot()
     plt.grid(True)

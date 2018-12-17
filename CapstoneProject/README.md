@@ -16,7 +16,7 @@ already have Anaconda installed, please execute the following line:
 
     **conda install -c quantopian ta-lib**
 4. The program was developed on Windows 10. The code tends to be
-cross-platform, however this has not been tested on a Windows or Mac
+cross-platform, however this has not been tested on a Linux or Mac
 machine.
 
 5. The program is launched by typing the following on the command line
@@ -31,6 +31,8 @@ This could be supplied in an excel file, or typed on the command prompt.
 7. Historical EoD data for upto 1 year is fetched from Yahoo Finance
 
 8. Volatility and daily measure are calculated. Stocks are discarded from
-the process if they are an outlier with the above critera
+the process if they are an outlier with the above criteria
 
-9. Measures such as ADX, SMA , Bollinger Bands etc are calculated. 
+9. Measures such as ADX, SMA , Bollinger Bands etc are calculated.
+
+10. KPIs are calculated and plotted. 
