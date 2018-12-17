@@ -8,12 +8,12 @@ Code developed on Windows 10.
 
 Device Strategy for short-term trading
 1. If RSI crosses 30 from Below and
-      MACD cosses Signal from above and
+      MACD crosses Signal from above and
       Both Stock and Broad Market ADX is above 25 and
       Close is less than Lower Bollinger Band
       Go Long
 2. If RSI crosses 70 from Above and
-      MACD cosses Signal from below and
+      MACD crosses Signal from below and
       Both Stock and Broad Market ADX is above 25 and
       Close is greater than Upper Bollinger Band
       Go Long
