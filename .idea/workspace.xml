@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11658b1-f26b-431d-90ab-9f7d1a64cbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CapstoneProject/indicator_plotting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CapstoneProject/measure_kpi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CapstoneProject/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CapstoneProject/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CapstoneProject/trading_signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/CapstoneProject/trading_signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CapstoneProject/trading_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/CapstoneProject/trading_strategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeerReview/~$erReview_OsamaIqbal.doc" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/CapstoneProject/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -157,10 +151,10 @@
         <option value="$PROJECT_DIR$/CapstoneProject/README.md" />
         <option value="$PROJECT_DIR$/CapstoneProject/kpi.py" />
         <option value="$PROJECT_DIR$/CapstoneProject/trading_signals.py" />
-        <option value="$PROJECT_DIR$/CapstoneProject/main.py" />
         <option value="$PROJECT_DIR$/CapstoneProject/indicator_plotting.py" />
         <option value="$PROJECT_DIR$/CapstoneProject/measure_kpi.py" />
         <option value="$PROJECT_DIR$/CapstoneProject/trading_strategy.py" />
+        <option value="$PROJECT_DIR$/CapstoneProject/main.py" />
       </list>
     </option>
   </component>
@@ -253,7 +247,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543255875872</updated>
       <workItem from="1543255878303" duration="9090000" />
-      <workItem from="1545030078293" duration="4520000" />
+      <workItem from="1545030078293" duration="4548000" />
     </task>
     <task id="LOCAL-00001" summary="complete intrim">
       <created>1543266912608</created>
@@ -269,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543266929001</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete capstone code">
+      <created>1545044066651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545044066651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13610000" />
+    <option name="totallyTimeSpent" value="13638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -309,7 +310,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete intrim" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete intrim" />
+    <MESSAGE value="complete capstone code" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete capstone code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -453,7 +455,7 @@
     <entry file="file://$PROJECT_DIR$/CapstoneProject/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
         </state>
       </provider>
     </entry>

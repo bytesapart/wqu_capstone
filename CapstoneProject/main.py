@@ -24,7 +24,7 @@ __version__ = '1.0.0'  # Versioning: http://www.python.org/dev/peps/pep-0386/
 
 import logging  # Logging class for logging in the case of an error, makes debugging easier
 import sys  # For gracefully notifying whether the script has ended or not
-import stock_entry  # For getting the ticker list from the user
+import stock_entry  # For getting the ticker list from the user.
 import data_fetcher  # For fetching data from the web
 import volatility_estimator  # For getting the volatility of the outliers
 import trading_signals  # For generating signals to trade upon
