@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11658b1-f26b-431d-90ab-9f7d1a64cbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CapstoneProject/CapstoneReport_OsamaIqbal.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CapstonePresentation/OsamaIqbal_FinalPresentation.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_Osama_Iqbal-Capstone_Project_18_Dec_2018.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Osama_Iqbal-Capstone_Presentation_18_Dec_2018.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Osama_Iqbal-Capstone_Project_18_Dec_2018.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CapstoneProject/trading_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/CapstoneProject/trading_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CapstoneProject/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CapstoneProject/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CapstoneProject/volatility_estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/CapstoneProject/volatility_estimator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,18 +17,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/capstone$main.coverage" NAME="main Coverage Results" MODIFIED="1545075926546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CapstoneProject" />
+    <SUITE FILE_PATH="coverage/capstone$main.coverage" NAME="main Coverage Results" MODIFIED="1545076454351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CapstoneProject" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CapstoneProject/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+            <state relative-caret-position="96">
+              <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
               <folding>
                 <element signature="e#1095#1186#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CapstoneProject/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="322">
+                <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CapstoneProject/trading_signals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+            <state relative-caret-position="2001">
+              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
               <folding>
                 <element signature="e#365#371#0" expanded="true" />
               </folding>
@@ -74,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CapstoneProject/volatility_estimator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="92">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="e#604#635#0" expanded="true" />
               </folding>
@@ -107,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CapstoneProject/trading_strategy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="-782">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -131,11 +147,13 @@
       <find>Index_ADX</find>
       <find>device_strategy</find>
       <find>windows or</find>
+      <find>logging.info</find>
     </findStrings>
     <replaceStrings>
       <replace>index_ma</replace>
       <replace>index_adx</replace>
       <replace>derive_strategy</replace>
+      <replace>print</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -149,10 +167,10 @@
         <option value="$PROJECT_DIR$/CapstoneProject/README.md" />
         <option value="$PROJECT_DIR$/CapstoneProject/measure_kpi.py" />
         <option value="$PROJECT_DIR$/CapstoneProject/indicator_plotting.py" />
-        <option value="$PROJECT_DIR$/CapstoneProject/main.py" />
-        <option value="$PROJECT_DIR$/CapstoneProject/volatility_estimator.py" />
         <option value="$PROJECT_DIR$/CapstoneProject/trading_signals.py" />
         <option value="$PROJECT_DIR$/CapstoneProject/trading_strategy.py" />
+        <option value="$PROJECT_DIR$/CapstoneProject/main.py" />
+        <option value="$PROJECT_DIR$/CapstoneProject/volatility_estimator.py" />
       </list>
     </option>
   </component>
@@ -245,7 +263,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543255875872</updated>
       <workItem from="1543255878303" duration="9090000" />
-      <workItem from="1545030078293" duration="11723000" />
+      <workItem from="1545030078293" duration="12382000" />
     </task>
     <task id="LOCAL-00001" summary="complete intrim">
       <created>1543266912608</created>
@@ -282,11 +300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545075315429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Complete report">
+      <created>1545076044891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545076044892</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20813000" />
+    <option name="totallyTimeSpent" value="21472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -297,7 +322,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3965812" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48205128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2923077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +349,9 @@
     <MESSAGE value="complete intrim" />
     <MESSAGE value="complete capstone code" />
     <MESSAGE value="complete capstone code ... again!" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete capstone code ... again!" />
+    <MESSAGE value="Complete report" />
+    <MESSAGE value="Add peripheral files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add peripheral files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,16 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CapstoneProject/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CapstoneProject/stock_entry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-889">
@@ -441,40 +458,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CapstoneProject/trading_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CapstoneProject/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CapstoneProject/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        <state relative-caret-position="96">
+          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
           <folding>
             <element signature="e#1095#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CapstoneProject/volatility_estimator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding>
-            <element signature="e#604#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CapstoneProject/trading_signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+        <state relative-caret-position="2001">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
           <folding>
             <element signature="e#365#371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CapstoneProject/trading_strategy.py">
+    <entry file="file://$PROJECT_DIR$/CapstoneProject/volatility_estimator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="92">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#604#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

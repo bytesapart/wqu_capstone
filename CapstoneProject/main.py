@@ -48,15 +48,15 @@ def main():
         data = data_fetcher.fetch_stock_hist_data(tickers)
 
         # ===== Step 3: Get the volatility of the outliers =====
-        logging.info('Calculating Volatility...')
+        print('Calculating Volatility...')
         volatility, data = volatility_estimator.calculate_volatility_of_stocks(data)
 
         # ===== Step 4: Get the indicators to trade on ======
-        logging.info('Applying Strategy...')
+        print('Applying Strategy...')
         indicators, data, tick = trading_signals.trading_strat_mean_revert(data)
 
         # Plot the stock data and the indicators
-        logging.info('Plotting signals and indicators...')
+        print('Plotting signals and indicators...')
         indicator_plotting.plot_signals_and_indicators(tick, data, indicators)
 
     except BaseException, e:
