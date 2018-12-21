@@ -61,7 +61,7 @@ def calculate_volatility_of_stocks(stock_data):
 
     stock_data_copy = stock_data.copy()
     for key, item in stock_data.iteritems():
-        if key not in outliers and key <> '^GSPC':
+        if key not in outliers and key != '^GSPC':
             del stock_data_copy[key]
     stock_data = stock_data_copy
 
